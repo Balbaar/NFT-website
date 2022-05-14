@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #001233;
+}
+
+.topbar{
+    border: 2px red solid;
+    background: #002855;
+
+    display: flex;
+    height: 100px;
+}
+
+.item{
+    border: 2px orange solid;
+    margin: 10px;
+}
+
+h1{
+    border: 1px purple solid;
+    color: #979DAC;
+
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: relative;
+    margin-top: 17px;
+}
