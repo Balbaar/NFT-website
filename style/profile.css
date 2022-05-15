@@ -9,24 +9,66 @@ body{
 }
 
 .topbar{
-    border: 2px red solid;
     background: #002855;
+    height: 15%;
+    border-radius: 0 0 30px 30px;
+    min-width: 800px;
 
     display: flex;
-    height: 100px;
+    gap: 10px;
+    justify-content: space-evenly;
+
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .item{
-    border: 2px orange solid;
-    margin: 10px;
+    background-color: #023E7D;
+    box-shadow: 0 0 2px 2px #0353A4;
+    border-radius: 10px ;
+
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.item:hover{
+    transform: scale(1.15);
 }
 
 h1{
-    border: 1px purple solid;
-    color: #979DAC;
+    color: white;
 
     left: 50%;
     transform: translate(-50%, 0);
     position: relative;
-    margin-top: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    background: #002855;
+    border: 3px #023E7D solid;
+    height: 500px;
+    width: 70%;
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+
+    display: flex;
+
+}
+
+.profile{
+    border: 2px red solid;
+    width: 100%;
+    margin: 5%;
 }

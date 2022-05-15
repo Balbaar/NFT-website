@@ -19,6 +19,7 @@ body{
     position: relative;
     transform: translate(-50%, 0);
     top: 100px;
+    box-shadow: 0 0 5px 5px rgba(27,178,180,1);
 }
 
 .card-image{
@@ -39,12 +40,13 @@ body{
     opacity: 0;
     border-radius: 20px;
 
-    transition: all 0.2 ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .card-view-image:hover{
-    background: rgba(100, 20, 100, 0.5);
+    background: rgba(27, 178, 180, 0.4);
     opacity: 100;
+    
 }
 
 .card-title{
