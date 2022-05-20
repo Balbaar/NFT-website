@@ -68,7 +68,6 @@ a{
 }
 
 .profile-top{
-    border: 1px red solid;
     background: #023E7D;
     box-shadow: 0 0 2px 2px #0353A4;
     width: fit-content;
@@ -114,6 +113,14 @@ a{
 }
 
 .profile-info{
-    border: 1px red solid;
+    background:#023E7D ;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 500px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+    padding: 20px;
 
 }
